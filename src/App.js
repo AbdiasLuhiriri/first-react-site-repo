@@ -1,5 +1,12 @@
+import Collection from "./components/Collection";
+import Header from "./components/Header";
 const App = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Header />
+      <Collection />
+    </div>
+  );
 };
 
 export default App;

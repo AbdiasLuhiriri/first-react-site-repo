@@ -1,9 +1,34 @@
-body {
+*{
   margin: 0;
+  padding: 0;
+}
+body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
+header {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.fruits{
+  width: 550px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 30px auto;
+  border-radius: 5px;
+  padding: 25px 0;
+}
+.fruits_img{
+  width: 500px;
+}
+.fruits_title{
+  font-size: xx-large;
+  padding: 10px;
+}
